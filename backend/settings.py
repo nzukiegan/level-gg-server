@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-da)pj4k5!ih3n8g52exap281$^l+1w6u42ysvxi0bu5pul_nuv
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://level-gg-server.onrender.com']
+ALLOWED_HOSTS = ['level-gg-server.onrender.com', 'localhost', '127.0.0.1']
 
 AUTH_USER_MODEL = 'tournaments.Player'
 
