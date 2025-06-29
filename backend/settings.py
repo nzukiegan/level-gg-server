@@ -140,6 +140,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     os.environ.get('ALLOWED_ORIGIN'),
     os.environ.get('ALLOWED_ORIGIN2'),
+    'https://level-gg-server.onrender.com',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
