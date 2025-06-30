@@ -139,7 +139,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     os.environ.get('CLIENT_URL'),
-    os.environ.get('BACKEND_URL'),
+    os.environ.get('BACKEND_URL2'),
 ]
 
 CORS_ALLOW_CREDENTIALS = True
